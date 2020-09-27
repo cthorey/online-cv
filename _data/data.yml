@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -23,7 +23,7 @@ sidebar:
     twitter: '@cthorey'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    goodreads: 63308100-thorey-cl-ment
 
     languages:
       - idiom: French
@@ -48,40 +48,29 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Apply cutting-edge machine learning to make the world a better place. Particularly interested in robotics / computer vision. 
+
 education:
     - degree: PhD in  Geophysics - Planetary  Sciences
       university: IPGP (Paris)
       time: 2012 - 2015
       details: |
-        Detection of solidified magma chambers
-        in the lunar crust through numerical simulations
+        Detection of solidified magma chambers in the lunar crust through numerical simulations
         and data exploration
     - degree: Masters Degree in Theoretical Physics
       university: Ecole Normal Supérieur,  Lyon.
       time: 20010 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
     - role: Lead Machine Learning Engineer
       time: 2015 - Present
       company: Xihelm, London
       details: |
-        I lead the team responsible for building the next generation of greenhouse
-        harvesting robotic arms. This includes:
+        I lead the team building the next generation of greenhouse harvesting robotic arms.
+        This includes
+
           - Weekly review of the latest research in robotics / computer vision.
-          - Dataset gathering to ensure continuous learning of our models.
+          - Dataset gathering/cleaning to ensure the continuous learning of our models.
           - Neural network design/training/evaluation on a wide range of modalities
           (image/depth image/pointcloud) to solve several challenging tasks (image
           classification, object detections, instance segmentations, pointcloud
@@ -90,54 +79,50 @@ experiences:
           grenhouse environement.
           - Maintening/orchestrating the software stack (ROS/docker).
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Data Science felllow
+      time: 2016 - 2016
+      company: Pivigo/Royal Mail, London
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Highly competitive workshop helping scientists over five weeks to transition to Data Science through business lectures and a concrete project with a data-driven company.
+
+          - I work in a team of 4, referring directly to the head of the Royal Mail data science team, to providea reliable forecast for each mail type arriving in each delivery office in the U.K.
+          - I wrote a pipeline in python to rapidly process the 12000 time series, clean the data, handle outliers and remove the seasonality. Using an ensemble of statistical methods and regression trees trained on data from 2014 and 2015, we were able to decrease the forecast error by 35% over 2016 compared to the model currently in use in the company, ultimately leading to a better allocation of resources over the network
+          - Finding were presented and very well received by a cross-section of the company who were convinced to use our model in the future. The presentation was also one of the four selected among 24 to be presented a second time to a special  panel of expert.
+    - role: Teaching assistant - undergraduate level
+      time: 2012 - 2016
+      company: Université Diderot, Paris
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Mathematics - Linear algebra, ODE, PDE, Fourier series, Fourier transform.
+          - Physics - Mechanics, Experimental Physics.
+          - Programming - Python.
+    - role: PhD in Geophysics
+      time: 2012 - 2015
+      company: Université Diderot, Paris
+      details: |
+        Detection of solidified magma chambers in the lunar crust through numerical simulations and data exploration.
+
+           - Successfully used machine learning and statistics, in combination with a Python library I have written, to process and interpret gigabytes of data from the lunar surface and deliver a one-year project as part of the NASA's GRAIL mission science team.
+          - Produce efficient pipelines, written in python, to process and visualize gigabytes of data resulting from hundreds of numerical simulations of cooling magma flows.
+          - Develop excellent communication skills, both in writing by publishing 3 papers in major scientific journals, and speaking, presenting my work in 3 oral awarded presentations in leading international conferences.
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Side Projects / Competitions
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Clog Loss Advance Alzheimer's Research with Stall Catchers competition
+        link: https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research/leaderboard/
+        tagline: Detecting clogged blood vessels in the brain. By training a network based on the SlowFast architectures, I was able to finish 21/922 competitors.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Safe Aging with SPHERE competition
+        link: https://www.drivendata.org/competitions/42/leaderboard/
+        tagline: Predicting actual activity from noisy sensor data - Using an ensemble of xgboost and neural network models, I was able to finish in the top 2% of the competitors.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Geocolab
+        link: https://github.com/cthorey/geocolab
+        tagline: Abstract recommendation system for the largest geoscience meeting in the world simplifying the meeting experience and facilitating networking in the community. Backend using Flask/Fronted using Bootstrap. Recommendation based on a LSA representation of 25,000 abstracts.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: From Fog Nets to Neural Nets competition.
+        link: https://www.drivendata.org/competitions/9/leaderboard/
+        tagline: Predict the yield of DSH’s fog nets for every day during an evaluation period. Using an ensemble of recurrent neural networks (LSTM) and auto-regressive models (ARIMA), I was able to finish in the top 5% of the leaderboard.
 
 publications:
     title: Publications
@@ -165,23 +150,21 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: python
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: SQL
         level: 98%
 
-      - name: Angular
+      - name: ROS
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Javascript & HTML5 & CSS
+        level: 75%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: C++
+        level: 65%
 
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
