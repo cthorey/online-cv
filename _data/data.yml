@@ -75,7 +75,7 @@ experiences:
           (image/depth image/pointcloud) to solve several challenging tasks (image
           classification, object detections, instance segmentations, pointcloud
           instance segmentation, grasp pose estimation).
-          - The science of making it all work, and their deployment complex
+          - The science of making it all work, and their deployment in complex
           grenhouse environement.
           - Maintening/orchestrating the software stack (ROS/docker).
 
@@ -126,25 +126,27 @@ projects:
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: Elastic-plated gravity current with temperature-dependent viscosity.
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Thorey, C., Michaut, C.
+        conference: Journal of Fluid Mechanics.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Gravitational signatures of lunar floor-fractured craters.
+        link: "http://www.ipgp.fr/~michaut/PAPERS/Thorey_etal2015.pdf"
+        authors: Thorey, C., Michaut, C., Wieczorek, M.A.
+        conference: Earth and Planetary Science Letters 1–40.
 
-      - title: A syntax directed compiler for Algol 60
+      - title: A model for the dynamics of crater-centered intrusion - Application to lunar floor-fractured craters.
+        link: "http://www.ipgp.fr/~michaut/PAPERS/Thorey_Michaut2014.pdf"
+        authors: Thorey, C., Michaut, C.
+        conference: J. Geophys. Res. Planets 119, 286–312
+
+      - title: Magmatic intrusions and deglaciation at mid-latitude in the northern plains of Mars.
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Thorey, C., Michaut, C.
+        conference: Icarus 225, 602–613.
+
 
 skills:
     title: Skills &amp; Proficiency
