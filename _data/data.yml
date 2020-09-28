@@ -48,7 +48,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Apply cutting-edge machine learning to make the world a better place. Particularly interested in robotics / computer vision. 
+      Apply cutting-edge machine learning to make the world a better place.
+      Particularly interested in the field of robotics and computer vision.
 
 education:
     - degree: PhD in  Geophysics - Planetary  Sciences
@@ -66,18 +67,14 @@ experiences:
       time: 2015 - Present
       company: Xihelm, London
       details: |
-        I lead the team building the next generation of greenhouse harvesting robotic arms.
-        This includes
+        I lead the team building the brain of the next greenhouse harvesting robotic arms:
 
-          - Weekly review of the latest research in robotics / computer vision.
-          - Dataset gathering/cleaning to ensure the continuous learning of our models.
-          - Neural network design/training/evaluation on a wide range of modalities
-          (image/depth image/pointcloud) to solve several challenging tasks (image
-          classification, object detections, instance segmentations, pointcloud
-          instance segmentation, grasp pose estimation).
-          - The science of making it all work, and their deployment in complex
-          grenhouse environement.
-          - Maintening/orchestrating the software stack (ROS/docker).
+          - Weekly review of the latest research in robotics / computer vision (2D/3D).
+          - Create new datasets to ensure continous learning from our deployed robot experiences. 
+          - Design and train neural networks on a wide range of modalities (image/depth/pointcloud)
+          to solve a large array of tasks required by a complex greenhouse environment (from instance segmentation in 2D/3D to grasp pose estimation and safety evaluation).
+          - Develop and maintain robot performance dashboards which inform weekly planning meeting.  
+          - Maintain and continuously improve the software stack (ROS/docker).
 
     - role: Data Science felllow
       time: 2016 - 2016
@@ -110,7 +107,7 @@ projects:
     assignments:
       - title: Clog Loss Advance Alzheimer's Research with Stall Catchers competition
         link: https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research/leaderboard/
-        tagline: Detecting clogged blood vessels in the brain. By training a network based on the SlowFast architectures, I was able to finish 21/922 competitors.
+        tagline: Detect clogged blood vessels in mouse brains from short video sequences. By training a network based on the SlowFast architecture, I was able to finish 21/922 competitors.
 
       - title: Safe Aging with SPHERE competition
         link: https://www.drivendata.org/competitions/42/leaderboard/
@@ -123,6 +120,25 @@ projects:
       - title: From Fog Nets to Neural Nets competition.
         link: https://www.drivendata.org/competitions/9/leaderboard/
         tagline: Predict the yield of DSH’s fog nets for every day during an evaluation period. Using an ensemble of recurrent neural networks (LSTM) and auto-regressive models (ARIMA), I was able to finish in the top 5% of the leaderboard.
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: python (pytorch/numpy/pandas/seaborn/sklearn/scipy)
+        level: 98%
+
+      - name: ROS
+        level: 98%
+
+      - name: toolchain - docker/gcp/aws/git/sql/postgres/trains
+        level: 98%
+
+      - name: Javascript & HTML5 & CSS
+        level: 75%
+
+      - name: C++
+        level: 65%
 
 publications:
     title: Publications
@@ -148,24 +164,6 @@ publications:
         conference: Icarus 225, 602–613.
 
 
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: python
-        level: 98%
-
-      - name: SQL
-        level: 98%
-
-      - name: ROS
-        level: 98%
-
-      - name: Javascript & HTML5 & CSS
-        level: 75%
-
-      - name: C++
-        level: 65%
 
 
 footer: >
