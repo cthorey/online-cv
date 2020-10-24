@@ -48,7 +48,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Deep-learning engineer with 4 years experience leveraging cutting edge research to 
+      Machine learning engineer with 4 years experience leveraging cutting edge research to 
       automate vegetable harvesting in greenhouse thoughout the UK. Always looking for new
       opportunities to learn, I am particularly interested in computer vision with application
       in the real word. 
@@ -69,10 +69,10 @@ experiences:
       time: 2016 - Present
       company: Xihelm, London
       details: |
-        I lead the team building the brain of the next greenhouse harvesting robotic arms.
+        I lead the team building the brain of the next greenhouse harvesting robots. 
 
           - Weekly review of the latest research in robotics / computer vision (2D/3D).
-          - Create new datasets to ensure continous learning from our deployed robot experiences. 
+          - Design and implement complex data pipeline to ensure our robots are continously learning from their own experiences. 
           - Design and train neural networks on a wide range of modalities (image/depth/pointcloud)
           to solve a large array of tasks required by a complex greenhouse environment (from instance segmentation in 2D/3D to grasp pose estimation and safety evaluation).
           - Develop and maintain robot performance dashboards which inform weekly planning meeting.  
