@@ -48,8 +48,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Apply cutting-edge machine learning to make the world a better place.
-      Particularly interested in the field of robotics and computer vision.
+      Deep-learning engineer with 4 years experience leveraging cutting edge research to 
+      automate vegetable harvesting in greenhouse thoughout the UK. Always looking for new
+      opportunities to learn, I am particularly interested in computer vision with application
+      in the real word. 
 
 education:
     - degree: PhD in  Geophysics - Planetary  Sciences
@@ -64,10 +66,10 @@ education:
 
 experiences:
     - role: Lead Machine Learning Engineer
-      time: 2015 - Present
+      time: 2016 - Present
       company: Xihelm, London
       details: |
-        I lead the team building the brain of the next greenhouse harvesting robotic arms:
+        I lead the team building the brain of the next greenhouse harvesting robotic arms.
 
           - Weekly review of the latest research in robotics / computer vision (2D/3D).
           - Create new datasets to ensure continous learning from our deployed robot experiences. 
@@ -131,7 +133,7 @@ skills:
       - name: ROS
         level: 98%
 
-      - name: toolchain - docker/gcp/aws/git/sql/postgres/trains
+      - name: toolchain - docker/gcp/aws/git/sql
         level: 98%
 
       - name: Javascript & HTML5 & CSS
