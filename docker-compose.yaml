@@ -2,7 +2,8 @@ version: '2.4'
 
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
+    image: bretfisher/jekyll
+    command: serve
     volumes:
       - .:/site
     ports:

@@ -48,10 +48,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Machine learning engineer with four years experience leveraging cutting-edge research to 
-      automate vegetable harvesting in greenhouse thoughout Europe. Always looking for new
-      opportunities to learn, I am particularly interested in computer vision with application
-      in the real world. 
+      Machine learning engineer with four years experience leveraging cutting-edge research to automate vegetable harvesting in greenhouse thoughout Europe. Always looking for new opportunities to learn, I am particularly interested in computer vision with application in the real world. 
 
 education:
     - degree: PhD in  Geophysics - Planetary  Sciences
@@ -73,27 +70,18 @@ experiences:
 
           - Weekly review of the latest research in robotics / computer vision (2D/3D).
           - Design and implement complex data pipeline to ensure our robots are continously learning from their own experiences. 
-          - Design and train neural networks on a wide range of modalities (image/depth/pointcloud)
-          to solve a large array of tasks required by a complex greenhouse environment (from instance segmentation in 2D/3D to grasp pose estimation and safety evaluation).
+          - Design and train neural networks on a wide range of modalities (image/depth/pointcloud) to solve a large array of tasks required by a complex greenhouse environment (from instance segmentation in 2D/3D to grasp pose estimation and safety evaluation).
           - Develop and maintain robot performance dashboards which inform weekly planning.  
           - Maintain and continuously improve the software stack (ROS/docker).
 
-    - role: Data Science felllow ([S2DS](http://www.s2ds.org/))
+    - role: Data Science fellow
       time: 2016 - 2016
       company: Pivigo/Royal Mail, London
       details: |
-        Highly competitive workshop helping scientists over five weeks to transition to Data Science through business lectures and a concrete project with a data-driven company.
-
+        Highly competitive [worksphop](http://www.s2ds.org/) helping scientists over five weeks to transition to Data Science through business lectures and a concrete project with a data-driven company.
           - I work in a team of 4, referring directly to the head of the Royal Mail data science team, to providea reliable forecast for each mail type arriving in each delivery office in the U.K.
-          - I wrote a pipeline in python to rapidly process the 12000 time series, clean the data, handle outliers and remove the seasonality. Using an ensemble of statistical methods and regression trees trained on data from 2014 and 2015, we were able to decrease the forecast error by 35% over 2016 compared to the model currently in use in the company, ultimately leading to a better allocation of resources over the network
-          - Findings were presented and very well received by a cross-section of the company who were convinced to use our model in the future. The presentation was also one of the four selected among 24 to be presented a second time to a special panel of experts.
-    - role: Teaching assistant - undergraduate level
-      time: 2012 - 2016
-      company: IPGP/Université Diderot, Paris
-      details: |
-          - Mathematics - Linear algebra, ODE, PDE, Fourier series, Fourier transform.
-          - Physics - Mechanics, Experimental Physics.
-          - Programming - Python.
+          - Using an ensemble of statistical methods, we were able to decrease the forecast error by 35% over 2016 compared to the model currently in use in the company, ultimately leading to a better allocation of resources over the network
+
     - role: PhD in Geophysics
       time: 2012 - 2015
       company: Université Diderot, Paris
@@ -103,6 +91,14 @@ experiences:
            - Successfully used machine learning and statistics, in combination with a Python library I have written, to process and interpret gigabytes of data from the lunar surface and deliver a one-year project as part of the NASA's GRAIL mission science team.
           - Produce efficient pipelines, written in python, to process and visualize gigabytes of data resulting from hundreds of numerical simulations of cooling magma flows.
           - Develop excellent communication skills, both in writing by publishing 3 papers in major scientific journals, and speaking, presenting my work in 3 oral awarded presentations in leading international conferences.
+
+    - role: Teaching assistant - undergraduate level
+      time: 2012 - 2016
+      company: IPGP/Université Diderot, Paris
+      details: |
+          - Mathematics - Linear algebra, ODE, PDE, Fourier series, Fourier transform.
+          - Physics - Mechanics, Experimental Physics.
+          - Programming - Python.
 
 projects:
     title: Side Projects / Competitions
@@ -146,17 +142,17 @@ publications:
     title: International Peer Reviewed Publications
     papers:
       - title: Elastic-plated gravity current with temperature-dependent viscosity.
-        link: "#"
+        link: "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/elasticplated-gravity-currents-with-a-temperaturedependent-viscosity/CEE89FAF6BDB0A5B5C49E5CD0BF60BD2"
         authors: Thorey, C., Michaut, C.
         conference: Journal of Fluid Mechanics.
 
       - title: Gravitational signatures of lunar floor-fractured craters.
-        link: "http://www.ipgp.fr/~michaut/PAPERS/Thorey_etal2015.pdf"
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S0012821X15002356"
         authors: Thorey, C., Michaut, C., Wieczorek, M.A.
         conference: Earth and Planetary Science Letters 1–40.
 
       - title: A model for the dynamics of crater-centered intrusion - Application to lunar floor-fractured craters.
-        link: "http://www.ipgp.fr/~michaut/PAPERS/Thorey_Michaut2014.pdf"
+        link: "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013JE004467"
         authors: Thorey, C., Michaut, C.
         conference: J. Geophys. Res. Planets 119, 286–312
 
