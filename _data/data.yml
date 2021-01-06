@@ -66,14 +66,22 @@ experiences:
       time: 2016 - Present
       company: Xihelm, London
       details: |
-        I lead the team building the brain of the next greenhouse harvesting robots. 
 
-          - Weekly review of the latest research in robotics / computer vision (2D/3D).
-          - Design and implement complex data pipeline to ensure our robots are continously learning from their own experiences. 
-          - Design and train neural networks on a wide range of modalities (image/depth/pointcloud) to solve a large array of tasks required by a complex greenhouse environment (from instance segmentation in 2D/3D to grasp pose estimation and safety evaluation).
-          - Develop and maintain robot performance dashboards which inform weekly planning.  
-          - Maintain and continuously improve the software stack (ROS/docker).
+        **I lead the development of an autonomous robotic harvesting platform providing growers with a competitive precision indoor harvesting solution in greenhouses.**
 
+        Beside the integration of multiple RGB and RGBD cameras, I implemented, trained and productionized **state-of-the-art machine-learning** models to **detect**, **segment** and **estimate grasp-pose candidates** for all the targets directly from the camera feeds. I implemented the extrinsic camera calibration routine as well as the **low latency/high throughput system which fuses the knowledge from each single feed into a single consistent world map**. Additional unique capabilities of the system include the 3D math to replan the optimal sequence of stops to maximize yield/throughput during the harvest every time new information is aggregated.
+
+        In addition to the core architecture, I also maintain **complex data/training pipelines** to ensure our robots are **continuously learning** from their own field experiences as well as robot **performance dashboards** which we use to inform our weekly planning meeting.
+
+        An inclusive but not exhaustive list of the technology I have worked with includes:
+
+        - 3D point cloud instance segmentation (PointNet++/DGCNN/Point Transformer)
+        - 6DOF grasp pose estimation (PointNet++ together with a custom head)
+        - 2D instance segmentation (mask-rcnn/SSD300/detectron2/SOLOv2)
+        - Inverse Kinematics and Trajectory planning for a 6DOF arm manipulation (MoveIt!, Reinforcement learning (PPO))
+        - Image classification for safety evaluation and improved automation
+        - 3D object registrations
+          
     - role: Data Science fellow
       time: 2016 - 2016
       company: Pivigo/Royal Mail, London
